@@ -13,10 +13,28 @@ We think that git provides a much nicer way to share data sets of limited size (
 - Fields in jq path notation:
   - `.[0]` arxiv ID
   - `.[1]` the oai_dc JSON document returned by the API
-- Example Record
 
-  ["0704.0004",{"contributor":[],"date":["2007-03-30"],"rights":[],"title":["A determinant of Stirling cycle numbers counts unlabeled acyclic\n  single-source automata"],"publisher":[],"identifier":["http://arxiv.org/abs/0704.0004"],"creator":["Callan, David"],"subject":["Mathematics - Combinatorics","05A15"],"description":["  We show that a determinant of Stirling cycle numbers counts unlabeled acyclic\nsingle-source automata. The proof involves a bijection from these automata to\ncertain marked lattice paths and a sign-reversing involution to evaluate the\ndeterminant.\n","Comment: 11 pages"],"language":[],"format":[],"type":["text"],"coverage":[],"source":[],"relation":[]}]
+Example Record
 
+```
+[ "0704.0004", {
+  "contributor":[],
+  "date":["2007-03-30"],
+  "rights":[],
+  "title":["A determinant of Stirling cycle numbers counts unlabeled acyclic\n  single-source automata"],
+  "publisher":[],
+  "identifier":["http://arxiv.org/abs/0704.0004"],
+  "creator":["Callan, David"],
+  "subject":["Mathematics - Combinatorics","05A15"],
+  "description":["  We show that a determinant of Stirling cycle numbers counts unlabeled acyclic\nsingle-source automata. The proof involves a bijection from these automata to\ncertain marked lattice paths and a sign-reversing involution to evaluate the\ndeterminant.\n","Comment: 11 pages"],
+  "language":[],
+  "format":[],
+  "type":["text"],
+  "coverage":[],
+  "source":[],
+  "relation":[]}
+]
+```
 ## Missing files
 
 The following files could not be downloaded. Still investigating.
